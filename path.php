@@ -16,27 +16,27 @@
         $conn->close();
   
 
-        // ~~~~Kjo pjese eshte vetem demonstrim i kodit per send dhe recive te nje mesazhi po per arsye qe kam perdor 
+        /* // ~~~~Kjo pjese eshte vetem demonstrim i kodit per send dhe recive te nje mesazhi po per arsye qe kam perdor 
         //local host nuk ekzekutohet
 
 
-        
-        // if(isset($_POST['send'])){
-        //     $mailto="tahirivlere@gmail.com";
-        //     $from=$_POST['email'];
-        //     $emri=$_POST['name'];
-        //     $permbajtja=$_POST['text1'];
-        //     $mesazhi="Client Name:". $emri. "Wrote the following Message". "\n\n". $_POST['text2'];
-        //     $fillimi="From: " .$from;
+
+        if(isset($_POST['send'])){
+            $mailto="tahirivlere@gmail.com";
+            $from=$_POST['email'];
+            $emri=$_POST['name'];
+            $permbajtja=$_POST['text1'];
+            $mesazhi="Client Name:". $emri. "Wrote the following Message". "\n\n". $_POST['text2'];
+            $fillimi="From: " .$from;
     
     
-        //     $rezultati= mail($mailto,$permbajtja,$mesazhi,$fillimi);
+            $rezultati= mail($mailto,$permbajtja,$mesazhi,$fillimi);
             
     
-        //     if($rezultati){
-        //         echo '<script type="text/javascript">alert("Message Sent. Thank you!")</script>';
-        //     }else{
-        //         echo '<script type="text/javascript">alert("Submit faild")</script>';
-        //     }
-        // }
+            if($rezultati){
+                echo '<script type="text/javascript">alert("Message Sent. Thank you!")</script>';
+            }else{
+                echo '<script type="text/javascript">alert("Submit faild")</script>';
+            }
+        } */
 ?>

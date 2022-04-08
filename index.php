@@ -14,7 +14,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="jquery_cookies.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="butoni-scrollup">
@@ -191,6 +193,106 @@
             </div>
         </div>
     </section>
+
+    <!--COOKIES-->
+    <?php
+        if(!isset($_COOKIE['home_cookie_bar'])){}
+    ?>
+        <div class="stripPopup">
+            <div class="container">
+                <div class="contentWrap">
+                    <span>We use cookies on this site.</span><br>
+                    <abbr>By clicking "Yes, I agree!", you are giving us consent for us to set cookies.</abbr>
+                </div>
+                <div class="btnWrap">
+                    <a href="javascript:void(0);" class="btn3 yesiagree"><button class="yesbtn">Yes,I agree</button></a>
+                    <a href="#" class="btn3 "><button class="nobtn">No, I want to find out more</button></a>
+                </div>
+            </div>
+        </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+        .stripPopup{
+            width: 100%;
+            height: 25vh;
+            background-color:#DDC7A1;
+            border: 1px black;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container{
+            display: flex;
+            
+            border:1px black
+        }
+        .contentWrap{
+          
+            margin:10px;
+            width:50%;
+            height:20vh;
+            font-size: 20px;
+            font-weight: 100;
+            margin: 10px 0 7px 0;
+            padding:20px;
+        }
+        .btnWrap{
+            
+            margin:10px;
+            width:50%;
+            height:20vh;
+        }
+        .container .contentWrap{
+            float: left;
+            
+        }
+        .btnWrap{
+            display:flex;
+            width: 50%;
+            padding:50px;
+        }
+        .btnWrap a{
+            display:block;
+        }
+        button{
+            padding: 10px;
+            margin-left:10px
+        }
+       .yesbtn{
+            
+            color: wheat;
+            display: block;
+            width: 160px!important;
+            height: 45px;
+            outline: none;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 6px;
+            cursor: pointer;
+            flex-wrap: nowrap;
+            background: #634B42;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .yesbtn:hover{
+            color: black;
+            background: none;
+            font-weight: 600;
+        }
+        .nobtn{
+            color:grey;
+            display: block;
+            width: 200px!important;
+            height: 45px;
+            outline: none;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 6px;
+            cursor: pointer;
+            flex-wrap: nowrap;
+            background: transparent;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+    </style>
 
     <script src="index.js"></script>
 </body>
