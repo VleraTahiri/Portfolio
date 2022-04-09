@@ -45,7 +45,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Vlera Tahiri</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                
             </div>
         </div>
     </section>
@@ -60,7 +60,10 @@
                 </div>
                 <div class="kolona djathtas">
                     <div class="text">I'm Vlera and I'm a <span class="typing-2"></span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                    <p>I am 21 years old and I live in Vushtrri. I am currently studying at the University of Prishtina, FIEK faculty, branch of Computer Engineering.
+                        I like programming because it is another form of communication, it teaches us about the importance of group work, you can ask for help and you will find it, thus making us more supportive of one another.
+                        From a code to a computer it turns into a very beautiful and functional website or application and other more advanced things like programming a rocket ship, we can say that programming is a superpower.
+                        This is why i like what i do.</p>
                     <a href="VleraTahiri.zip">Download CV</a>
                 </div>
             </div>
@@ -74,9 +77,10 @@
             <div class="serv-permbajtje">
                 <div class="card">
                     <div class="box">
-                        
-                        <div class="text">Web Development</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <a style="color:white;" href="https://github.com/VleraTahiri" target="_blank">
+                        <div class="text" >Web Development</div>
+                        <p>I can bring your idea to life by creating the website you want, fully functional.</p>
+                        </a>
                     </div>
                 </div>
                </div>
@@ -91,7 +95,7 @@
             <div class="skills-permbajtje">
                 <div class="kolona majtas">
                     <div class="text">My  skills.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <p>Of course it is important to be good at the work we do, so it is important to know the technologies we work with but among the professional skills, it is very important to be able to communicate and work in a team, this is too a skill I possess. </p>
                     
                 </div>
                 <div class="kolona djathtas">
@@ -143,7 +147,8 @@
             <div class="kontakt-permbajtje">
                 <div class="kolona majtas">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                    <p>If you have a business or enterprise and do not know how to advertise it, consider creating a website.
+                    <BR>Contact me, I can help you :)</p>
                     <div class="ikona">
                         <div class="row">
                             <i class="fas fa-user"></i>
