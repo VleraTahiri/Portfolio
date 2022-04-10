@@ -219,9 +219,9 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
         .stripPopup{
             width: 100%;
-            height: 25vh;
-            background-color:#DDC7A1;
-            border: 1px black;
+            height: 20vh;
+            background-color:black;
+            color:white;
             font-family: 'Poppins', sans-serif;
         }
         .container{
@@ -233,7 +233,7 @@
           
             margin:10px;
             width:50%;
-            height:20vh;
+            height:15vh;
             font-size: 20px;
             font-weight: 100;
             margin: 10px 0 7px 0;
@@ -243,7 +243,7 @@
             
             margin:10px;
             width:50%;
-            height:20vh;
+            height:15vh;
         }
         .container .contentWrap{
             float: left;
@@ -278,7 +278,7 @@
             transition: all 0.3s ease;
         }
         .yesbtn:hover{
-            color: black;
+            color: wheat;
             background: none;
             font-weight: 600;
         }
